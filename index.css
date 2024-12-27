@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    width:100px;
+    height:auto;
+}
+body{
+    background-image: linear-gradient(to right, #dadafc,#fad3e7);
+}
+.box{
+    background-color:  whitesmoke;
+    height: 92vh;
+    width: 84vw;
+    margin: 30px auto;
+    border-radius: 30px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.img{
+    height:75vh;
+    width:40vw;
+    display: inline-block;
+    
+}
+.logo{
+    height:88vh;
+    width:40vw;
+    border-radius:8px 0px 0px 10px ;
+    margin: 10px 20px;
+    position: relative;
+    top:15px;
+}
+
+.kec{
+    float:  right;
+    display: flex;
+    justify-content: center;
+    align-items:  end;
+    flex-flow: column nowrap;
+    gap:10px;
+    position: relative;
+     top: 260px;
+    right:240px
+
+}
+
+.name{
+    position:  relative;
+    bottom: 120px;
+}
+
+h2{
+    position:  relative;
+    bottom: 100px;
+    right:180px;
+}
+
+.desc{
+    position:  relative;
+    bottom: 100px;
+    right:37px; 
+}
+
+label{
+    display: block;
+    position:  relative;
+    bottom: 90px;
+    right:-50px; 
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 20px; 
+}
+
+input{
+    margin-top: 20px;
+    position:  relative;
+    bottom: 90px;
+    right:-50px; 
+    width: 300px;
+    height:40px;
+    border: 2px solid rgb(168, 177, 177);
+    border-radius: 5px;
+    display: block;
+}
+
+button{
+    margin-top: 20px;
+    position:  relative;
+    bottom: 90px;
+    right:-50px; 
+    width: 300px;
+    height:40px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.end{
+    color:blue;
+    position:  relative;
+    bottom: 90px;
+    right:-80px; 
+    padding:20px;
+}
